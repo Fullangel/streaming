@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieJoy-Inicio</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../src/css/home.css">
+    <!-- LINK SWRIPER CSS -->
+    <link rel="stylesheet" href="../src/css/swiper-bundle.min.css">
+    <!-- Icon -->
+    <link rel="icon" type="" href="../src/img/logo.svg">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- NAV -->
+        <div class="nav containter">
+            <!-- LOGO -->
+            <img src="../src/img/logo2.svg" alt="" class="logo-image">
+            <a href="home.html" class="logo">
+                Movie<span>Joy</span>
+            </a>
+            <!-- SEARCH -->
+            <div class="search-box">
+                <input type="search" name="" id="search-input" placeholder="Search Movie">
+                <i class='bx bx-search'></i>
+            </div>
+            <!-- USER -->
+            <a href="login.html" class="user">
+                <img src="../src/img/usuario.png" alt="" class="user-img">
+            </a>
+            <!-- NAVBAR -->
+            <div class="navbar">
+                <a href="home.html" class="nav-link nav-active">
+                    <i class='bx bx-home' ></i>
+                    <span class="nav-link-title">Home</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bxs-hot' ></i>
+                    <span class="nav-link-title">Trending</span>
+                </a>
+                <a href="#movies" class="nav-link">
+                    <i class='bx bx-compass' ></i>
+                    <span class="nav-link-title">Explore</span>
+                </a>
+                <a href="#home" class="nav-link">
+                    <i class='bx bx-tv' ></i>
+                    <span class="nav-link-title">Movies</span>
+                </a>
+                <a href="/public/favouriteForm.html" class="nav-link">
+                    <i class='bx bx-heart' ></i>
+                    <span class="nav-link-title">Favourite</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <!-- HOME -->
+    <section class="home container" id="home">
+        <!-- HOME IMAGE -->
+        <img src="../src/img/jurassic-world-dominion-universal-pictures.jpg" alt="" class="home-img">
+        <!-- HOME TEXT -->
+        <div class="home-text">
+            <h1 class="home-title">Jurassic World Dominion Universal </h1>
+            <p>Proximamente</p>
+            <a href="./reproductor_0.html" class="watch-btn">
+                <i class='bx bx-right-arrow' ></i>
+                <span>Watch the trailer</span>
+            </a>
+        </div>
+    </section>
+    <!-- HOME SEND -->
+    <!-- POPULAR SECTION START -->
+    <section class="popularContainer" id="home">
+        <!-- HEADING -->
+        <div class="heading">
+            <h2 class="heading-title">Popular Movies</h2>
+            <!-- SWIPER BUTTONS -->
+            <div class="swiper-btn">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <!-- CONTENT -->
+        <div class="popular-content swiper">
+            <div class="swiper-wrapper">
+                <!-- MOVIES BOX 1 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/Buzz.jpg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Lightyear</h2>
+                            <span class="movie-type">Infantil</span>
+                            <a href="./reproductor_1.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOVIES BOX 2 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/Avengers.jpeg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Avengers EndGame</h2>
+                            <span class="movie-type">Acción</span>
+                            <a href="./reproductor_2.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOVIES BOX 3 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/Extraction.jpeg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Extraction</h2>
+                            <span class="movie-type">Acción</span>
+                            <a href="./reproductor_3.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOVIES BOX 4 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/Minions.jpeg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Minions (2022)</h2>
+                            <span class="movie-type">Infantil</span>
+                            <a href="./reproductor_4.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOVIES BOX 5 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/Doctor Strange in the Multiverse of Madness (2022) Full Movie.jpeg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Doctor Strange in the Multiverse of Madness</h2>
+                            <span class="movie-type">Acción/Ciencia Ficción</span>
+                            <a href="./reproductor_5.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <!-- MOVIES BOX 6 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/Spiderman.jpeg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Spiderman No Way Home</h2>
+                            <span class="movie-type">Acción</span>
+                            <a href="./reproductor_6.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <!-- MOVIES BOX 7 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/The Batman.jpeg" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">The Batman</h2>
+                            <span class="movie-type">Acción/Aventura</span>
+                            <a href="./reproductor_7.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>                
+                <!-- MOVIES BOX 8 -->
+                <div class="swiper-slide">
+                    <div class="movie-box">
+                        <img src="../src/img/The Black Phone.png" alt="" class="movie-box-img">
+                        <div class="box-text">
+                            <h2 class="movie-title">Black Phone</h2>
+                            <span class="movie-type">Terror/Suspenso</span>
+                            <a href="./reproductor_8.html" class="watch-btn play-btn">
+                                <i class='bx bx-right-arrow' ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- POPUPLAR SECTION END -->
+    <!-- MOVIES SECTION START -->
+    <section class="movies container" id="movies">
+        <div class="heading">
+            <h2 class="heading-title">Movies and shows</h2>
+        </div>
+    </section>
+    <!-- MOVIES SECTION END -->
+    <!-- MOVIES CONTENT -->
+    <div class="Movie_container">  
+        <!-- MOVIES BOX 1 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/encanto.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Encanto</h2>
+                    <span class="movie-type">Infantil/3D</span>
+                    <a href="./reproductor_9.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MOVIES BOX 2 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/Venom2.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Venom 2</h2>
+                    <span class="movie-type">Accion/Thriller/Suspenso</span>
+                    <a href="./reproductor_10.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MOVIES BOX 3 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/luca.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Luca</h2>
+                    <span class="movie-type">Infantil/3D</span>
+                    <a href="./reproductor_11.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>                
+        <!-- MOVIES BOX 4 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/Turning Red movie poster.jpg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Red</h2>
+                    <span class="movie-type">Infantil/3D</span>
+                    <a href="./reproductor_12.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MOVIES BOX 5-->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/godzilla vs kong.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Godzilla vs Kong</h2>
+                    <span class="movie-type">Acción/Aventura</span>
+                    <a href="./reproductor_13.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>                
+        <!-- MOVIES BOX 6-->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/Sing2.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Sing 2</h2>
+                    <span class="movie-type">Infatil/3D</span>
+                    <a href="./reproductor_14.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MOVIES BOX 7 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/eternals.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Eternals</h2>
+                    <span class="movie-type">Acción/Aventura</span>
+                    <a href="./reproductor_15.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- MOVIES BOX 8 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/DBZ.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Dragon Ball Broly</h2>
+                    <span class="movie-type">Acción/Aventura</span>
+                    <a href="./reproductor_16.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>                   
+        <!-- MOVIES BOX 9 -->
+        <div class="swiper-slide">
+            <div class="movie-box">
+                <img src="../src/img/Dumbledore.jpeg" alt="" class="movie-box-img">
+                <div class="box-text">
+                    <h2 class="movie-title">Los Secretos de Dumbledore</h2>
+                    <span class="movie-type">Terror/Suspenso</span>
+                    <a href="./reproductor_17.html" class="watch-btn play-btn">
+                        <i class='bx bx-right-arrow' ></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- COPYRIGHT -->
+    <div class="copyright">
+        <p>&#169; MovieJoy All Right Reserved</p>
+    </div>
+    <!-- LINK SWRIPER JS -->
+    <script src="../src/js/swiper-bundle.min.js"></script>
+    <!-- Link JS -->
+    <script src="../src/js/home.js"></script>
+</body>
+</html>

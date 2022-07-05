@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Iniciar Sesión</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../src/css/login.css">
+    <!-- Icon -->
+    <link rel="icon" type="" href="../src/img/logo.svg">
+</head>
+<body>
+    <header>
+        <div class="nav containter">
+            <!-- LOGO -->
+            <img src="../src/img/logo2.svg" alt="" class="logo-image">
+            <a href="home.html" class="logo">
+                Movie<span>Joy</span>
+            </a>
+    </header>
+    <!-- FORM SESSION -->
+    <div class="t-form">
+        <form onsubmit="entrar()">
+            <h3 id="titulo">Iniciar <span>Sesión</span></h3>
+            <table>
+                <tr>
+                    <td class="usuario">Usuario:</td>
+                    <td>
+                        <input class="login" type="text" name="username" id="username" size="18" maxlength="18">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="usuario">Contraseña:</td>
+                    <td>
+                        <input class="login" type="password" name="password" id="password" size="18" maxlength="18">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input  class="btn" type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+            <p>
+                <a href="../public/recovery.html" class="password">¿Has olvidado tu contraseña?</a>
+            </p>
+            <div>
+                <a href="../public/register.html">
+                    <input class="btn-register" type="button" value="Resgistrate">
+                </a>
+            </div>
+            <div>
+                <h2 id="result" class="copyright">© Movie<span>Joy</span></h2>
+            </div>
+        </form>
+    </div>
+    <script src="../src/js/main.js"></script>
+</body>
+</html>
